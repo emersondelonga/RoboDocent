@@ -18,3 +18,8 @@ class US:
             readings.append(currentReading)
 
         return np.mean(readings)
+    def too_close(dist):
+        if currentReading <= dist:
+            return true
+        else:
+            return false
