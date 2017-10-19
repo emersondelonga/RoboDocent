@@ -10,7 +10,7 @@ class US:
         self.echo = echo
         self.readings = [128, 128, 128, 128, 128]
 
-    def get_distance():
+    def get_distance(): 
 
         currentReading =  eyw2.read_ultrasonic_ranger(trig, echo)
         if currentReading != null:
@@ -18,7 +18,7 @@ class US:
             readings.append(currentReading)
 
         return np.mean(readings)
-    def too_close(dist):
+    def too_close(dist): 
         if currentReading <= dist:
             return true
         else:
