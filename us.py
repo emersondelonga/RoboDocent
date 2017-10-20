@@ -1,4 +1,4 @@
-#avg over small time
+
 
 import pigpio, eyw2
 import numpy as np
